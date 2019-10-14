@@ -1818,6 +1818,8 @@ this.tinycolor = tinycolor;
 @form-item-trailing-colon: true;
 @form-vertical-label-padding: 0 0 8px;
 @form-vertical-label-margin: 0;
+@form-item-label-colon-margin-right: 8px;
+@form-item-label-colon-margin-left: 2px;
 @form-error-input-bg: @input-bg;
 
 // Input
@@ -2334,15 +2336,24 @@ body {
 .banner .text-wrapper p {
   color: #314659;
 }
-.banner .banner-btn {
+.banner .banner-btns .banner-btn {
   border: 1px solid #2f54eb;
-  border-radius: 100px;
+  border-radius: 6px;
 }
-.banner .banner-btn.components {
+.banner .banner-btns .banner-btn.components {
   color: #fff;
   background: #2f54eb;
 }
-.banner .banner-btn.language {
+.banner .banner-btns .banner-btn.language {
+  color: #2f54eb;
+}
+.banner .banner-promote .ant-divider-inner-text {
+  color: rgba(0, 0, 0, 0.25);
+}
+.banner .banner-promote a {
+  color: #314659;
+}
+.banner .banner-promote a:hover {
   color: #2f54eb;
 }
 .page1 {
@@ -2421,6 +2432,13 @@ body {
 .new-version-video .vidoe-wrap {
   background: url('https://gw.alipayobjects.com/zos/rmsportal/gEeRuETmbpAYRaeilexm.jpg') repeat-x;
   background-size: cover;
+}
+.github-btn-large .gh-btn,
+.github-btn-large .gh-count {
+  background: transparent;
+}
+.github-btn-large .gh-count::after {
+  border-width: 7px 6px 7px 0;
 }
 .prev-next-nav {
   border-top: 1px solid #ebedf0;
@@ -10029,15 +10047,24 @@ body {
 .banner .text-wrapper p {
   color: #314659;
 }
-.banner .banner-btn {
+.banner .banner-btns .banner-btn {
   border: 1px solid #2f54eb;
-  border-radius: 100px;
+  border-radius: 6px;
 }
-.banner .banner-btn.components {
+.banner .banner-btns .banner-btn.components {
   color: #fff;
   background: #2f54eb;
 }
-.banner .banner-btn.language {
+.banner .banner-btns .banner-btn.language {
+  color: #2f54eb;
+}
+.banner .banner-promote .ant-divider-inner-text {
+  color: rgba(0, 0, 0, 0.25);
+}
+.banner .banner-promote a {
+  color: #314659;
+}
+.banner .banner-promote a:hover {
   color: #2f54eb;
 }
 .page1 {
@@ -10116,6 +10143,13 @@ body {
 .new-version-video .vidoe-wrap {
   background: url('https://gw.alipayobjects.com/zos/rmsportal/gEeRuETmbpAYRaeilexm.jpg') repeat-x;
   background-size: cover;
+}
+.github-btn-large .gh-btn,
+.github-btn-large .gh-count {
+  background: transparent;
+}
+.github-btn-large .gh-count::after {
+  border-width: 7px 6px 7px 0;
 }
 .prev-next-nav {
   border-top: 1px solid #ebedf0;
